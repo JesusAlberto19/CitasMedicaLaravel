@@ -42,9 +42,6 @@
                   </div>
                   <div class="custom-control custom-control-alternative custom-checkbox">
                     <input name="remember" class="custom-control-input" id=" remember" type="checkbox" {{ old('remember') ? 'checked' : '' }}>
-                    <label class="custom-control-label" for="remember">
-                      <span class="text-muted">Recordar sesión</span>
-                    </label>
                   </div>
                   <div class="text-center">
                     <button type="submit" class="btn btn-primary my-4">Empezar</button>
@@ -53,9 +50,6 @@
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6">
-                <a href="{{ route('password.request') }}" class="text-light"><small>¿Olvidates tu contraseña?</small></a>
-              </div>
               <div class="col-6 text-right">
                 <a href="{{route('register')}}" class="text-light"><small>Crear Cuenta nueva</small></a>
               </div>

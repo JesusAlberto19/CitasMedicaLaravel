@@ -28,7 +28,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Brand -->
-      <a class="navbar-brand pt-0" href="./index.html">
+      <a class="navbar-brand pt-0" >
+{{-- 
+en esta imagen puedo poner un redireccionamiento a la pagina de inicio --}}
+
         <img src="{{asset('img/brand/blue.png')}}" class="navbar-brand-img" alt="...">
       </a>
       <!-- User -->
